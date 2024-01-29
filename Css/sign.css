@@ -1,0 +1,52 @@
+body
+{
+    font-family: yekan;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);;
+}
+.form
+{
+    background-color: rgb(255 255 255);
+    box-shadow: 0 0 15px black;
+    width: 95vh;
+    height: 70vh;
+    border-radius: 5rem;
+}
+.header-title
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.sabtnam-a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.68);
+}
+.logo-sign
+{
+    width: 2rem;
+}
+@media only screen and (max-width: 1300px)
+{
+    .form-r
+    {
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .header-title
+    {
+        margin: 0rem;
+    }
+}
+@media only screen and (max-width: 666px)
+{
+    .form-r
+    {
+        width: fit-content;
+    }
+    .sign-logo
+    {
+       top: -3rem;
+    }
+}

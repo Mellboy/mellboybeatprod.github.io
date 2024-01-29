@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'shabnam';
+    src: url('../shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+    /* سایر خاصیت‌های مورد نیاز مانند font-weight و font-style */
+  }
+body
+{
+    font-family: 'shabnam';
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+.aaa:hover
+{
+    cursor: default;
+}
+.btn-class-body
+{
+    width: 8rem;
+}
+a
+{
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.img-new-box
+{
+    height: 10rem;
+}
+.section2-header
+{
+    margin-top: 8rem;
+}
+.section2-header
+{
+    position: relative;
+    font-size: 1.5rem;
+}
+.section2-header-h1::before
+{
+    content: "";
+    width: .4rem;
+    height: 1.5rem;
+    background-color: blue;
+    position: absolute;
+    right: 1rem;
+}
+.allbox-section-new2 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}

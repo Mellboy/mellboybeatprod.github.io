@@ -1,0 +1,39 @@
+.logo-header
+{
+    width: 2rem;
+    height: 2rem;
+}
+.a
+{
+    color: rgb(0, 0, 0);
+}
+.logo-header
+{
+    width: 2rem;
+}
+.header-h1
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-toggle-btn
+{
+    border: none;
+    background: none;
+}
+.li-nav-header-hover:hover
+{
+    background-color: rgba(198, 198, 254, 0.438);
+}
+.nav-header
+{
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+/*responsive*/
+@media only screen and (max-width: 986px)
+{
+    .logo-header
+    {
+        left: -2rem;
+    }
+}
